@@ -1,0 +1,267 @@
+14:55:13.220639 :
+	L2: 32 bytes from F-00:00:00:02:00:00 to F-FF:FF:FF:FF:FF:FF
+		checksum A2FE (Valid)
+	L3: neigh from F-0.0.0.2 to F-255.255.255.255 (ttl=1,pktid=00000035)
+	L4: Neighbor Discovery Request
+
+14:55:13.220872 :
+	L2: 32 bytes from F-00:00:00:01:00:00 to F-00:00:00:02:00:00
+		checksum 9BFE (Valid)
+	L3: neigh from F-0.0.0.1 to F-0.0.0.2 (ttl=1,pktid=00000039)
+	L4: Neighbor Discovery Response
+
+14:55:13.221029 :
+	L2: 44 bytes from F-00:00:00:02:00:00 to F-FF:FF:FF:FF:FF:FF
+		checksum F4FC (Valid)
+	L3: arp from F-0.0.0.2 to F-255.255.255.255 (ttl=1,pktid=00000037)
+	L4: ARP who has F-0.0.0.1 tell F-00:00:00:02:00:00
+
+14:55:13.221187 :
+	L2: 44 bytes from F-00:00:00:01:00:00 to F-00:00:00:02:00:00
+		checksum 86FE (Valid)
+	L3: arp from F-0.0.0.1 to F-0.0.0.2 (ttl=1,pktid=0000003A)
+	L4: ARP F-0.0.0.1 is at F-00:00:00:01:00:00
+
+14:55:13.221345 :
+	L2: 32 bytes from F-00:00:00:02:00:00 to F-FF:FF:FF:FF:FF:FF
+		checksum 9BFE (Valid)
+	L3: rout_dv from F-0.0.0.2 to F-255.255.255.255 (ttl=1,pktid=00000039)
+	L4: 0 distance-vector advertisements
+
+14:55:13.221540 :
+	L2: 68 bytes from F-00:00:00:02:00:00 to F-00:00:00:01:00:00
+		checksum ECFD (Valid)
+	L3: rout_dv from F-0.0.0.2 to F-0.0.0.1 (ttl=1,pktid=00000036)
+	L4: 3 distance-vector advertisements
+		F-0.0.0.1/F-255.255.255.255 at cost 64
+		F-0.0.0.3/F-255.255.255.255 at cost 64
+		F-0.0.0.4/F-255.255.255.255 at cost 1
+
+14:55:18.109680 :
+	L2: 68 bytes from F-00:00:00:01:00:00 to F-00:00:00:02:00:00
+		checksum 1BFE (Valid)
+	L3: rout_dv from F-0.0.0.1 to F-0.0.0.2 (ttl=1,pktid=0000003C)
+	L4: 3 distance-vector advertisements
+		F-0.0.0.2/F-255.255.255.255 at cost 64
+		F-0.0.0.3/F-255.255.255.255 at cost 10
+		F-0.0.0.4/F-255.255.255.255 at cost 1
+
+14:55:18.110016 :
+	L2: 68 bytes from F-00:00:00:01:00:00 to F-00:00:00:04:00:00
+		checksum E0FD (Valid)
+	L3: rout_dv from F-0.0.0.1 to F-0.0.0.4 (ttl=1,pktid=0000003D)
+	L4: 3 distance-vector advertisements
+		F-0.0.0.2/F-255.255.255.255 at cost 1
+		F-0.0.0.3/F-255.255.255.255 at cost 64
+		F-0.0.0.4/F-255.255.255.255 at cost 64
+
+14:55:18.110302 :
+	L2: 32 bytes from F-00:00:00:01:00:00 to F-FF:FF:FF:FF:FF:FF
+		checksum 9EFE (Valid)
+	L3: neigh from F-0.0.0.1 to F-255.255.255.255 (ttl=1,pktid=0000003B)
+	L4: Neighbor Discovery Request
+
+14:55:18.110494 :
+	L2: 32 bytes from F-00:00:00:02:00:00 to F-00:00:00:01:00:00
+		checksum 9AFE (Valid)
+	L3: neigh from F-0.0.0.2 to F-0.0.0.1 (ttl=1,pktid=0000003A)
+	L4: Neighbor Discovery Response
+
+14:55:18.110649 :
+	L2: 32 bytes from F-00:00:00:04:00:00 to F-00:00:00:01:00:00
+		checksum A8FE (Valid)
+	L3: neigh from F-0.0.0.4 to F-0.0.0.1 (ttl=1,pktid=00000028)
+	L4: Neighbor Discovery Response
+
+14:55:18.110802 :
+	L2: 32 bytes from F-00:00:00:01:00:00 to F-FF:FF:FF:FF:FF:FF
+		checksum 98FE (Valid)
+	L3: rout_dv from F-0.0.0.1 to F-255.255.255.255 (ttl=1,pktid=0000003E)
+	L4: 0 distance-vector advertisements
+
+14:55:36.349017 :
+	L2: 32 bytes from F-00:00:00:04:00:00 to F-FF:FF:FF:FF:FF:FF
+		checksum AAFE (Valid)
+	L3: neigh from F-0.0.0.4 to F-255.255.255.255 (ttl=1,pktid=00000029)
+	L4: Neighbor Discovery Request
+
+14:55:36.349202 :
+	L2: 32 bytes from F-00:00:00:01:00:00 to F-00:00:00:04:00:00
+		checksum 91FE (Valid)
+	L3: neigh from F-0.0.0.1 to F-0.0.0.4 (ttl=1,pktid=0000003F)
+	L4: Neighbor Discovery Response
+
+14:55:36.349359 :
+	L2: 68 bytes from F-00:00:00:04:00:00 to F-00:00:00:01:00:00
+		checksum F6FD (Valid)
+	L3: rout_dv from F-0.0.0.4 to F-0.0.0.1 (ttl=1,pktid=0000002A)
+	L4: 3 distance-vector advertisements
+		F-0.0.0.1/F-255.255.255.255 at cost 64
+		F-0.0.0.2/F-255.255.255.255 at cost 1
+		F-0.0.0.3/F-255.255.255.255 at cost 64
+
+14:55:36.349703 :
+	L2: 32 bytes from F-00:00:00:04:00:00 to F-FF:FF:FF:FF:FF:FF
+		checksum A4FE (Valid)
+	L3: rout_dv from F-0.0.0.4 to F-255.255.255.255 (ttl=1,pktid=0000002C)
+	L4: 0 distance-vector advertisements
+
+14:55:43.227530 :
+	L2: 32 bytes from F-00:00:00:02:00:00 to F-FF:FF:FF:FF:FF:FF
+		checksum 9BFE (Valid)
+	L3: neigh from F-0.0.0.2 to F-255.255.255.255 (ttl=1,pktid=0000003C)
+	L4: Neighbor Discovery Request
+
+14:55:43.227673 :
+	L2: 32 bytes from F-00:00:00:01:00:00 to F-00:00:00:02:00:00
+		checksum 94FE (Valid)
+	L3: neigh from F-0.0.0.1 to F-0.0.0.2 (ttl=1,pktid=00000040)
+	L4: Neighbor Discovery Response
+
+14:55:43.227813 :
+	L2: 68 bytes from F-00:00:00:02:00:00 to F-00:00:00:01:00:00
+		checksum E5FD (Valid)
+	L3: rout_dv from F-0.0.0.2 to F-0.0.0.1 (ttl=1,pktid=0000003D)
+	L4: 3 distance-vector advertisements
+		F-0.0.0.1/F-255.255.255.255 at cost 64
+		F-0.0.0.3/F-255.255.255.255 at cost 64
+		F-0.0.0.4/F-255.255.255.255 at cost 1
+
+14:55:43.227976 :
+	L2: 44 bytes from F-00:00:00:02:00:00 to F-FF:FF:FF:FF:FF:FF
+		checksum D52C (Valid)
+	L3: arp from F-0.0.0.2 to F-255.255.255.255 (ttl=1,pktid=0000003F)
+	L4: ARP who has F-0.0.0.4 tell F-00:00:00:02:00:00
+
+14:55:43.228067 :
+	L2: 32 bytes from F-00:00:00:02:00:00 to F-FF:FF:FF:FF:FF:FF
+		checksum 94FE (Valid)
+	L3: rout_dv from F-0.0.0.2 to F-255.255.255.255 (ttl=1,pktid=00000040)
+	L4: 0 distance-vector advertisements
+
+14:55:48.114782 :
+	L2: 68 bytes from F-00:00:00:01:00:00 to F-00:00:00:02:00:00
+		checksum DFFD (Valid)
+	L3: rout_dv from F-0.0.0.1 to F-0.0.0.2 (ttl=1,pktid=00000042)
+	L4: 3 distance-vector advertisements
+		F-0.0.0.2/F-255.255.255.255 at cost 64
+		F-0.0.0.3/F-255.255.255.255 at cost 64
+		F-0.0.0.4/F-255.255.255.255 at cost 1
+
+14:55:48.114957 :
+	L2: 32 bytes from F-00:00:00:01:00:00 to F-FF:FF:FF:FF:FF:FF
+		checksum 98FE (Valid)
+	L3: neigh from F-0.0.0.1 to F-255.255.255.255 (ttl=1,pktid=00000041)
+	L4: Neighbor Discovery Request
+
+14:55:48.115036 :
+	L2: 44 bytes from F-00:00:00:01:00:00 to F-FF:FF:FF:FF:FF:FF
+		checksum 5578 (Valid)
+	L3: arp from F-0.0.0.1 to F-255.255.255.255 (ttl=1,pktid=00000044)
+	L4: ARP who has F-0.0.0.4 tell F-00:00:00:01:00:00
+
+14:55:48.115116 :
+	L2: 32 bytes from F-00:00:00:04:00:00 to F-00:00:00:01:00:00
+		checksum A1FE (Valid)
+	L3: neigh from F-0.0.0.4 to F-0.0.0.1 (ttl=1,pktid=0000002F)
+	L4: Neighbor Discovery Response
+
+14:55:48.115206 :
+	L2: 32 bytes from F-00:00:00:01:00:00 to F-FF:FF:FF:FF:FF:FF
+		checksum 91FE (Valid)
+	L3: rout_dv from F-0.0.0.1 to F-255.255.255.255 (ttl=1,pktid=00000045)
+	L4: 0 distance-vector advertisements
+
+14:55:48.115298 :
+	L2: 32 bytes from F-00:00:00:02:00:00 to F-00:00:00:01:00:00
+		checksum 93FE (Valid)
+	L3: neigh from F-0.0.0.2 to F-0.0.0.1 (ttl=1,pktid=00000041)
+	L4: Neighbor Discovery Response
+
+14:55:48.115376 :
+	L2: 44 bytes from F-00:00:00:04:00:00 to F-00:00:00:01:00:00
+		checksum 86FE (Valid)
+	L3: arp from F-0.0.0.4 to F-0.0.0.1 (ttl=1,pktid=00000030)
+	L4: ARP F-0.0.0.4 is at F-00:00:00:04:00:00
+
+14:55:48.115481 :
+	L2: 68 bytes from F-00:00:00:01:00:00 to F-00:00:00:04:00:00
+		checksum DAFD (Valid)
+	L3: rout_dv from F-0.0.0.1 to F-0.0.0.4 (ttl=1,pktid=00000043)
+	L4: 3 distance-vector advertisements
+		F-0.0.0.2/F-255.255.255.255 at cost 1
+		F-0.0.0.3/F-255.255.255.255 at cost 64
+		F-0.0.0.4/F-255.255.255.255 at cost 64
+
+14:56:06.367606 :
+	L2: 32 bytes from F-00:00:00:04:00:00 to F-FF:FF:FF:FF:FF:FF
+		checksum A2FE (Valid)
+	L3: neigh from F-0.0.0.4 to F-255.255.255.255 (ttl=1,pktid=00000031)
+	L4: Neighbor Discovery Request
+
+14:56:06.367736 :
+	L2: 32 bytes from F-00:00:00:01:00:00 to F-00:00:00:04:00:00
+		checksum 8AFE (Valid)
+	L3: neigh from F-0.0.0.1 to F-0.0.0.4 (ttl=1,pktid=00000046)
+	L4: Neighbor Discovery Response
+
+14:56:06.367816 :
+	L2: 44 bytes from F-00:00:00:04:00:00 to F-FF:FF:FF:FF:FF:FF
+		checksum 303F (Valid)
+	L3: arp from F-0.0.0.4 to F-255.255.255.255 (ttl=1,pktid=00000033)
+	L4: ARP who has F-0.0.0.1 tell F-00:00:00:04:00:00
+
+14:56:06.367897 :
+	L2: 44 bytes from F-00:00:00:01:00:00 to F-00:00:00:04:00:00
+		checksum 75FE (Valid)
+	L3: arp from F-0.0.0.1 to F-0.0.0.4 (ttl=1,pktid=00000047)
+	L4: ARP F-0.0.0.1 is at F-00:00:00:01:00:00
+
+14:56:06.367993 :
+	L2: 44 bytes from F-00:00:00:04:00:00 to F-FF:FF:FF:FF:FF:FF
+		checksum 302F (Valid)
+	L3: arp from F-0.0.0.4 to F-255.255.255.255 (ttl=1,pktid=00000035)
+	L4: ARP who has F-0.0.0.2 tell F-00:00:00:04:00:00
+
+14:56:06.368078 :
+	L2: 32 bytes from F-00:00:00:04:00:00 to F-FF:FF:FF:FF:FF:FF
+		checksum 9AFE (Valid)
+	L3: rout_dv from F-0.0.0.4 to F-255.255.255.255 (ttl=1,pktid=00000036)
+	L4: 0 distance-vector advertisements
+
+14:56:06.368182 :
+	L2: 68 bytes from F-00:00:00:04:00:00 to F-00:00:00:01:00:00
+		checksum 22FE (Valid)
+	L3: rout_dv from F-0.0.0.4 to F-0.0.0.1 (ttl=1,pktid=00000032)
+	L4: 3 distance-vector advertisements
+		F-0.0.0.1/F-255.255.255.255 at cost 64
+		F-0.0.0.2/F-255.255.255.255 at cost 1
+		F-0.0.0.3/F-255.255.255.255 at cost 12
+
+14:56:13.234670 :
+	L2: 32 bytes from F-00:00:00:02:00:00 to F-FF:FF:FF:FF:FF:FF
+		checksum 93FE (Valid)
+	L3: neigh from F-0.0.0.2 to F-255.255.255.255 (ttl=1,pktid=00000044)
+	L4: Neighbor Discovery Request
+
+14:56:13.234878 :
+	L2: 32 bytes from F-00:00:00:01:00:00 to F-00:00:00:02:00:00
+		checksum 8CFE (Valid)
+	L3: neigh from F-0.0.0.1 to F-0.0.0.2 (ttl=1,pktid=00000048)
+	L4: Neighbor Discovery Response
+
+14:56:13.235036 :
+	L2: 68 bytes from F-00:00:00:02:00:00 to F-00:00:00:01:00:00
+		checksum DDFD (Valid)
+	L3: rout_dv from F-0.0.0.2 to F-0.0.0.1 (ttl=1,pktid=00000045)
+	L4: 3 distance-vector advertisements
+		F-0.0.0.1/F-255.255.255.255 at cost 64
+		F-0.0.0.3/F-255.255.255.255 at cost 64
+		F-0.0.0.4/F-255.255.255.255 at cost 1
+
+14:56:13.235326 :
+	L2: 32 bytes from F-00:00:00:02:00:00 to F-FF:FF:FF:FF:FF:FF
+		checksum 8DFE (Valid)
+	L3: rout_dv from F-0.0.0.2 to F-255.255.255.255 (ttl=1,pktid=00000047)
+	L4: 0 distance-vector advertisements
+
