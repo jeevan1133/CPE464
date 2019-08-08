@@ -1,0 +1,6 @@
+<HTML><HEAD><TITLE>Index File</TITLE></HEAD>
+<BODY>
+Simple index file!
+</BODY>
+</HTML>
+
